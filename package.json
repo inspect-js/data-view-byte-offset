@@ -1,6 +1,6 @@
 {
 	"name": "data-view-byte-offset",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get the byteOffset out of a DataView, robustly.",
 	"main": "index.js",
 	"exports": {
