@@ -1,0 +1,16 @@
+name: 'Tests: node.js < 10'
+
+on: [pull_request, push]
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    uses: ljharb/actions/.github/workflows/node.yml@main
+    with:
+      range: '< 10'
+      notable: '0.11.4 || 0.11.3 || 0.10.0 || 0.9'
+      type: minors
+      command: npm run tests-only
+      skip-ls-check: true
