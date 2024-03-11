@@ -28,7 +28,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ljharb/data-view-byte-offset.git"
+		"url": "git+https://github.com/inspect-js/data-view-byte-offset.git"
 	},
 	"keywords": [
 		"javascript",
@@ -44,9 +44,9 @@
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ljharb/data-view-byte-offset/issues"
+		"url": "https://github.com/inspect-js/data-view-byte-offset/issues"
 	},
-	"homepage": "https://github.com/ljharb/data-view-byte-offset#readme",
+	"homepage": "https://github.com/inspect-js/data-view-byte-offset#readme",
 	"dependencies": {
 		"call-bind": "^1.0.7",
 		"es-errors": "^1.3.0",
